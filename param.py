@@ -37,6 +37,6 @@ n_restarts = 20         # full restarts before giving up
 seed = None
 
 # write/plot
-outfile = "bub.in"
+outfile = "spheres.in"   # one line per sphere: x y z r
 do_write = True
 do_plot = False

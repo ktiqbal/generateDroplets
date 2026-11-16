@@ -138,7 +138,7 @@ def test_reproducible_with_seed():
 def test_roundtrip_file(tmp_path):
     cfg = cfg_of(method="boxed", gap_x=0.0, gap_y=0.0, gap_z=0.0)
     pos = droplets.generate(cfg, np.random.default_rng(0))
-    f = tmp_path / "bub.in"
+    f = tmp_path / "spheres.in"
     droplets.write_spheres(f, pos, cfg.R)
     pos2, r2 = droplets.read_spheres(f)
     np.testing.assert_allclose(pos2, pos, atol=1e-8)

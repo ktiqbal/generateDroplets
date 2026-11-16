@@ -1,6 +1,6 @@
 """Validate an existing sphere file against the configured domain and clearances.
 
-    python check_walls.py bub.in [--bc channel --lz 10 --gap-z 0.12 ...]
+    python check_walls.py spheres.in [--bc channel --lz 10 --gap-z 0.12 ...]
 """
 
 import sys

@@ -226,7 +226,7 @@ def check_config(pos, cfg: Config, radii=None):
 # I/O
 # ---------------------------------------------------------------------------
 def write_spheres(path, pos, R):
-    """One line per droplet: x y z r  (format read by CaNS-Fizzy read_sphere_file)."""
+    """One line per sphere: x y z r (plain text, no header, no blank lines)."""
     with open(path, "w") as f:
         for x, y, z in pos:
             f.write(f"{x:.8f} {y:.8f} {z:.8f} {R:.8f}\n")

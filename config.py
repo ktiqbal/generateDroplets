@@ -33,7 +33,7 @@ class Config:
     max_attempts: int = 100000
     n_restarts: int = 20
     seed: Optional[int] = None
-    outfile: str = "bub.in"
+    outfile: str = "spheres.in"
     do_write: bool = True
     do_plot: bool = False
 
