@@ -1,0 +1,58 @@
+# ---- local reference copy of the original code ----
+legacy/
+
+# ---- Python cache / bytecode ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- virtual environments ----
+.venv/
+venv/
+env/
+.env
+
+# ---- build / packaging artefacts ----
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+wheels/
+pip-wheel-metadata/
+
+# ---- test / tooling caches ----
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+
+# ---- generated data / output ----
+bub.in
+spheres.in
+*.in
+*.dat
+*.txt
+*.csv
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.bin
+*.out
+*.log
+*.png
+*.pdf
+*.svg
+
+# ---- editor / OS ----
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
